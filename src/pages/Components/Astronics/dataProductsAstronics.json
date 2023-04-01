@@ -1,0 +1,72 @@
+{
+    "R8200": { 
+        "id": "THE R8200",
+        "text_1": "THE ULTRA-PORTABLE LMR TEST SOLUTION FOR SUBSCRIBER AND INFRASTRUCTURE TESTING",
+        "image_1": "/img/Astronics/R8200/R8200_5.png",
+        "text_2": "The Freedom R8200 from Astronics Test Systems represents a major step in the evolution of the Land Mobile Radio service monitor. The R8200 combines comprehensive digital and analog LMR testing with the ability to measure important RF network characteristics such as Return Loss, VSWR and Phase.",
+        "image_2": "/img/Astronics/R8200/R8200_6.png",
+        "text_3": "The R8200’s newly designed RF architecture features outstanding spectral purity as well as a single-port Vector Network Analyzer (VNA) capable of measuring return loss, VSWR, and Phase.  There is simply no comparable product on the market.",
+        "title_3": "PREMIER ERGONOMICS",
+        "image_4": "/img/Astronics/R8200/R8200_5.png",
+        "text_5":"The R8200 features a color-enhanced, high-contrast display with key measurements shown in larger, bright blue font. It’s tuning knob also serves as a data-entry key, allowing the user to minimize the amount of hand movement required to navigate test procedures. It also sports a rugged, foldable metal handle and ear phone jack for use in high-noise environments.", 
+        "num1": 380, 
+        "num2": 180, 
+        "num3": 280, 
+        "num4": 180
+    },
+
+    "R8000C": { 
+
+        "id": "THE R8000C",
+        "text_1": "THE INDUSTRY STANDARD SINCE 2009",
+        "image_1": "/img/Astronics/R8000C/R8000C-3.png",
+        "text_2": "The R8000C is the third generation of the industry-standard LMR communications system analyzer first shipped in 2009. Weighing just 14 pounds, the R8000 is the only test set to offer complete benchtop functionality in a portable, software-defined package. Firmware upgrades are available free for the life of the unit, so the R8000’s capabilities only expand over time.",
+        "image_2":"/img/Astronics/R8000C/R800C_4.png",
+        "text_3": "The R8000 tests every major digital LMR protocol, is highly expandable, and boasts labaratory grade spectral purity. In fact, its RF specifications meet or surpass those of instruments costing thousands of dollars more.",
+        "title_3": "UPGRADABLE AND EXPANDABLE",
+        "image_4": "/img/Astronics/R8000C/R800C_1.png",
+        "text_5":"The software-based architecture of the R8000C lets you add software options and upgrades in the field. So if your needs change down the line, simply order the feature or protocol you need and enable it by entering a 16digit option key using the front panel keypad.", 
+        "num1": 300,
+        "num2": 180,
+        "num3": 280,
+        "num4": 180
+    }, 
+
+    "R8100": { 
+        "id": "THE R8100",
+        "text_1": "THE PREMIUM ULTRA-PORTABLE CHOICE",
+        "image_1": "/img/Astronics/R8100/R8100_2.png",
+        "text_2": "The R8100 is the premium, ultra-portable member of our product family. It has all the functionality and test capabilities of our industry-standard R8000 communications system analyzer, but also features an internal battery, premier ergonomics and suite of advanced features that are optional on the R8000.",
+        "image_2":"/img/Astronics/R8100/R8100_1.png",
+        "text_3": "The R8100 has become a widely-accepted industry standard, with the same outstanding spectral purity and test capabilities as the R8000, plus several additional features.",
+        "title_2":"ADVANCED FEATURES",
+        "text_4": "Our proprietary “Dual-Display,” showing the carrier and modulation scope on the same screen is included as a standard feature with every R8100, as is a tracking generator and cable fault locator. A feature unique to the R8100 is the ability to select the power meter scale in bar graph mode: choose from 5, 50 or 150W",
+        "image_3": "/img/Astronics/R8100/R8100_5.png",
+        "title_3": "PREMIER ERGONOMICS",
+        "image_4": "/img/Astronics/R8100/R8100_4.png",
+        "text_5":"The R8100 features a color-enhanced, high-contrast display with key measurements shown in larger, bright blue font. It’s tuning knob also serves as a data-entry key, allowing the user to minimize the amount of hand movement required to navigate test procedures.", 
+        "num1": 320,
+        "num2": 180,
+        "num3": 280,
+        "num4": 180
+    },
+
+    "R8600": { 
+        "id": "THE R8600",
+        "text_1": "RADIO TEST HUB",
+        "image_1": "/img/Astronics/R8600/R8600_1.png",
+        "text_2": "The R8600 Radio Test Hub is designed to meet the demanding requirements of RF production environments. Able to withstand 150 Watts of continuous RF power input, the R8600 was explicitly engineered to provide a cost-effective solution for 24/7 manufacturing use.",
+        "image_2":"/img/Astronics/R8600/R8600_1.png",
+        "text_3": "Two units can fit side-by-side in a standard 19” rack. The units stand less than 4RU high. A backpack accessory is also available for portable use.",
+        "title_2":"MANUFACTURING AUTOMATION",
+        "text_4": "The Radio Test Hub provides reliable, easy-to-operate testing for manufacturers of LMR radios and other RF devices. It operates without an embedded display to make efficient use of manufacturing rack space in an ATE environment, and uses our native Monitor & Control language.",
+        "image_3": "/img/Astronics/R8600/R8600_3.png",
+        "title_3": "AUTO RF SCAN",
+        "image_4": "/img/Astronics/R8600/Draw_R8600.png",
+        "text_5":"The new “Auto” mode of the RF Scan meter scans the user specified frequency range to find the most powerful signal that exceeds the selected squelch threshold, for example, to rapidly determine a radio channel or sequentially test different radios with minimal effort.", 
+        "num1": 300,
+        "num2": 220,
+        "num3": 320,
+        "num4": 180
+    }
+}

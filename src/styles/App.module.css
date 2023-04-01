@@ -1,0 +1,8 @@
+.header { 
+    z-index: 999;
+    position: absolute;
+}
+.Astronics { 
+    z-index: 2;
+    position: absolute;
+}

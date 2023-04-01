@@ -1,0 +1,83 @@
+ /*ESTILOS VALID ACOUNT*/
+ .mainForgotP { 
+    background-color: #1ceeee11;
+     backdrop-filter: blur(3px);
+     display: none;
+     height: 92vh;
+     width: 100%;
+     margin-top: 8vh;
+     position: absolute;
+     top: 0;
+     left: 0;
+     justify-content: center;
+     align-items: center;
+     z-index: 999;
+  }
+
+  .ctnbodyForgot { 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px 2px #0000001f;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 32%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8em;
+    border-radius: 10px;
+    padding: 0.4em;
+    position: relative;
+
+  }
+  .gmailAddress { 
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+  }
+
+  .gmailAddress input { 
+    width: 92%;
+     border-radius: 5px;
+     height: 10%;
+     padding: 0.8em;
+  }
+  .btnSendData { 
+    width: 92%;
+  }
+
+
+  .new_open { 
+    display: flex;
+ }
+  .dontreceive a { 
+    font-size: 14px;
+    text-decoration: none;
+  }
+ 
+ .IconCloseLogin:not(:hover){ 
+    transition: 0.25s;
+    scale: 1;
+    color: rgba(255, 0, 0, 0);
+ }
+ 
+ /*RESPONSIVE*/
+
+ @media(max-width: 1050px) { 
+  .ctnbodyForgot{ 
+    width: 40%;
+  }
+}
+@media(max-width: 750px) { 
+ .ctnbodyForgot{ 
+   width: 60%;
+ }
+}
+@media(max-width: 500px) { 
+ .ctnbodyForgot{ 
+   width: 80%;
+ }
+}
+ 

@@ -1,0 +1,30 @@
+{
+    "PRODUCT1": { 
+        "id": 1,
+        "image": "/img/CopperMountain/C1209ACM.png",
+        "title": "Cobalt VNAs up to 20 GHz",
+        "text": "Models come in boyh 9 and 20 GHz with options for Direct Receiver Acces and Drequency Extension",
+        "image_2": "/img/CopperMountain/spinner.png"
+    },
+    "PRODUCT2": { 
+        "id": 2,
+        "image": "/img/CopperMountain/CobaltFx.png",
+        "title": "mmWave Solutions to 330GHz",
+        "text": "Modular Frequency Extension Systems available in four separate frequency bands up to 110 GHz",
+        "image_2": "/img/CopperMountain/spinner.png"
+    },
+    "PRODUCT3": { 
+        "id": 3,
+        "image": "/img/CopperMountain/SN5090.png",
+        "title": "8-Port 9 GHz Analyzer",
+        "text": "The add-on option for ISO17025/Z540-1 Accredited, Traceable Calibration Certificate .",
+        "image_2": "/img/CopperMountain/spinner.png"
+    },
+    "PRODUCT4": { 
+        "id": 1,
+        "image": "/img/CopperMountain/Definitivas/SN5090_2.png",
+        "title": "Multiport USB VNAs to 9 GHz",
+        "text": "Robust, durable port connectors with ergonomic positioning, simplifying measurement cable connections.",
+        "image_2": "/img/CopperMountain/spinner.png"
+    }
+}

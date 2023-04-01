@@ -1,0 +1,304 @@
+
+/*BOTON HEADER*/
+
+.BtnHeader { 
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    background-color: #00AB55;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.BtnHeader:hover { 
+    background-color: #00ab567c; 
+    color: black;
+    box-shadow: 1px 2px 10px 1px #0000006e;
+    transition: 0.4s;
+    scale: 0.95;
+}
+@media(max-width: 500px){ 
+    .BtnHeader { 
+        width: 7em;
+        height: 2.5em;
+    }
+    .ctbIconHamburge { 
+        width: 1em;
+        height: 1em;
+    }
+}
+
+/*BOTONES APPS*/
+.btnApps { 
+    width: 4.5em;
+    height: 4.5em;
+    border-radius: 30px;
+    background-color: white;
+    border: solid 2px #00AB55 ;
+}
+
+.btnApps:hover { 
+    background-color:#00ab5667 ;
+    border: solid 2px #383d3b62; 
+    scale: 0.9;
+    transition: 0.5s;
+}
+.btnLoginApps { 
+    width: 18em;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.btnLoginApps:hover { 
+    background-color: #ffffff3a; 
+    color: black;
+    box-shadow: 1px 2px 10px 1px #0000002d;
+    transition: 0.4s;
+    scale: 0.95;
+
+}
+
+.btnLoginApps:not(:hover) { 
+    transition: 0.4s;
+    background-color: black;
+    color: white;
+    scale: 1;
+}
+
+/*RESPONSIVE BOTONES APPS*/
+
+
+@media(max-width: 460px) { 
+    .btnApps { 
+        width: 5em;
+        height: 5em;
+    }
+    .btnLoginApps { 
+        width: 17em;
+        height: 60px;
+
+    }
+  }
+
+@media(max-width: 400px) { 
+    .btnApps { 
+        width: 4em;
+        height: 4em;
+    }
+    .btnLoginApps { 
+        width: 15em;
+        height: 50px;
+
+    }
+  }
+  @media(max-width: 300px) { 
+    .btnApps { 
+        width: 3.5em;
+        height: 3.5em;
+    }
+    .btnLoginApps { 
+        width: 12em;
+        height: 50px;
+
+    }
+  }
+
+
+
+/*CARRUSEL HOME*/
+
+.imgCarousel { 
+    width: 90px;
+}
+.main { 
+    display: flex;
+    background-color: #007B55;
+    width: 90%;
+    height: 3.5em;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 0 auto;
+}
+.main section { 
+    cursor: pointer;
+}
+
+
+
+/*BOTONES PARTNERS*/
+.btnPartnerAstronics, 
+.btnPartnerCopperMountain { 
+    width: 100%;;
+    max-height: 4em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.7em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 0.6em;
+}
+
+.btnPartnerAstronics { 
+    background-color: #233F66;
+    border: none;   
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.btnPartnerCopperMountain { 
+    background-color: #0B572E;
+    border: none;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.ctnViewMore { 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    top: 5px;
+    right: 10px;
+}
+
+.ctnViewMore2 { 
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    top: 5px;
+    right: 10px;
+}
+
+
+.IconsGetInBtn { 
+    filter: invert(99%) sepia(98%) saturate(1%) hue-rotate(259deg) brightness(108%) contrast(100%);
+}
+.btnAstronics, 
+.btnCopperMountain { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    color: white;
+    text-decoration: none;
+    width: 54%;
+}
+
+
+/*RESPONSIVE BOTONES PARTNERS*/
+@media(max-width: 1420px) { 
+    .btnAstronics, 
+    .btnCopperMountain { 
+      width: 57%;
+    }
+
+  }
+  @media(max-width: 1340px) { 
+    .btnAstronics, 
+    .btnCopperMountain { 
+      width: 60%;
+    }
+  }
+@media(max-width: 1280px) { 
+    .btnAstronics, 
+    .btnCopperMountain { 
+        width: 100%;
+        justify-content: right;
+    }
+    .btnPartnerAstronics, 
+    .btnPartnerCopperMountain { 
+        width: 73%;
+    }
+}
+
+@media(max-width: 1150px){ 
+    .btnPartner { 
+        width: 100%;
+    }
+    .btnPartnerAstronics, 
+    .btnPartnerCopperMountain { 
+        width: 130%;
+    }
+}
+
+/* BOTONES DENTRO DEL FORMULARIO LOGIN*/
+
+.ctnBtnSignIn button { 
+    min-width: 100% !important;
+    height: 2.2em;
+    border-radius: 5px;
+    background-color: #1ceeee;
+    border: none;
+    font-weight: 700;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+
+ }
+
+ .ctnBtnSignIn button:hover { 
+    background-color: #050505;
+    color: white;
+    transition: 0.3s;
+ }
+
+ .ctnBtnSignIn button:not(:hover) { 
+    background-color: #1ceeee;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+ }
+
+ /*ARROW BACK*/
+
+ .arrowBack { 
+    position: absolute;
+    left: 0.7em;
+    top: 0.7em;
+ }
+ .arrowBack:hover { 
+    transition: 0.4s;
+    color: #1ceeee;
+    scale: 0.8;
+ }
+ .arrowBack:not(:hover) {
+    transition: 0.4s; 
+    color: black;
+    scale: 1;
+ }
+
+ /*BOTON CLOSE X*/
+
+ .iconClose { 
+    position: absolute;
+    right: 0.7em;
+    top: 0.7em;
+   }
+   .iconClose:hover{
+    transition: .4s;
+    color: red;
+    scale: 0.8;
+   }
+   .iconClose:not(:hover){
+    transition: .4s;
+    color: black;
+    scale: 1;
+   }

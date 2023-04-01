@@ -1,0 +1,18 @@
+{
+    "R8200": { 
+        "id": "The 8200",
+        "img": "/img/Astronics/R8200/R8200_1.png"
+    },
+    "R8000C": { 
+        "id": "The 8000C",
+        "img": "/img/Astronics/R8000C/R8000C_2.png"
+    },
+    "R8100": { 
+        "id": "The 8100",
+        "img": "/img/Astronics/R8100/R8100_5.png"
+    },
+    "R8600": { 
+        "id": "The 8600",
+        "img": "/img/Astronics/R8600/R8600_1.png"
+    }
+}

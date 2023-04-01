@@ -1,0 +1,253 @@
+.ctnLogin{ 
+    background-color: #1ceeee11;
+ display: none;
+  backdrop-filter: blur(3px);
+  height: 92vh;
+  width: 100%;
+  margin-top: 8vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal_open { 
+ display: flex;
+}
+.ctnLogin_2 {
+
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px 2px #0000001f;
+  width: 22%;
+  height: 70%;
+  border-radius: 10px;
+  display: flex;
+  padding: 1.5em;
+  position: relative;
+}
+
+.ctnInitialLogin { 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin: auto;
+ height: 100%;
+ gap: 1em;
+
+
+}
+
+/*ESTILOS ICONOS LOGIN*/
+.ctnLogosInLogin { 
+  display: flex;
+  width: 94%;
+  border-radius: 10PX;
+  justify-content: space-around;
+  align-items: center;
+  height: 15%;
+
+
+}
+.ctnLogosInLogin_GPS,
+.ctnLogosInLogin_Alarm,
+.ctnLogosInLogin_RMA { 
+  scale: 0.7;
+  padding: 0.3em;
+  width: 90% ;
+  border-radius: 5px;
+  
+}
+
+.IconsLoginInt { 
+  scale: 0.5;
+}
+
+
+/*ESTILOS LOGO LOGIN*/
+
+.ctnLogo { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80% ;
+
+}
+
+.ctnLogo h2 { 
+  font-size: 12px;
+}
+.ctnUsernameAndPassword { 
+  box-shadow: 2px 2px 10px 2px #0000001f;
+  padding: 0.5em;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  margin-top: -1em;
+  gap: 1em;
+}
+.InputUsername,
+.PasswordInput { 
+  width: 97%;
+  border-radius: 5px;
+  height: 1.5em;
+  padding: 0.3em;
+}
+
+.PasswordOrForfotPassword { 
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+  width: 99%;
+}
+.ctnPassword { 
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 99%;
+}
+.ctnUsername { 
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 14px;
+  font-weight: 600;
+  width: 99%;
+}
+.passwordText { 
+  text-decoration: none;
+}
+.ctnBtnSignIn button { 
+  width: 99%;
+  height: 2.2em;
+  border-radius: 5px;
+  background-color: #1ceeee;
+  border: none;
+  font-weight: 700;
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+
+}
+
+.ctnBtnSignIn button:hover { 
+  background-color: #050505;
+  color: white;
+  transition: 0.3s;
+}
+
+.ctnBtnSignIn button:not(:hover) { 
+  background-color: #1ceeee;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.NewInWiex { 
+  box-shadow: 2px 2px 10px 2px #0000001f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  width: 90%;
+  padding: 0.7em;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.Terms { 
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.UlCreateAccount { 
+  list-style: none;
+  display: flex;
+  gap: 2em; 
+}
+.termLabels { 
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+.termLabels_2 {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/*ESTILOS INPUT*/
+
+.InputUsername { 
+  pointer-events: none;
+  background-color: #05050521;
+}
+
+.modalInput { 
+  pointer-events:auto;
+  background-color: #05050500;
+}
+
+/*PARTE RESPONSIVE*/
+@media(max-width: 1424px) { 
+  .ctnLogin_2 { 
+    width: 25%;
+  }
+}
+@media(max-width: 1257px) { 
+  .ctnLogin_2 { 
+    width: 30%;
+  }
+}
+@media(max-width: 1062px) { 
+  .ctnLogin_2 { 
+    width: 35%;
+  }
+}
+@media(max-width: 900px) { 
+  .ctnLogin_2 { 
+    width: 40%;
+  }
+}
+@media(max-width: 800px) { 
+  .ctnLogin_2 { 
+    width: 45%;
+  }
+}
+@media(max-width: 700px) { 
+  .ctnLogin_2 { 
+    width: 55%;
+  }
+}
+@media(max-width: 569px) { 
+  .ctnLogin_2 { 
+    width: 65%;
+  }
+}
+@media(max-width: 480px) { 
+  .ctnLogin_2 { 
+    width: 75%;
+  }
+}
+@media(max-width: 430px) { 
+  .ctnLogin_2 { 
+    width: 80%;
+  }
+}
+@media(max-width: 390px) { 
+  .ctnLogin_2 { 
+    width: 90%;
+  }
+}
+@media(max-width: 350px) { 
+  .ctnLogin_2 { 
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "Port USB VNAs to 18 GHz": { 
+        "id": "Port USB",
+        "img": "/img/CopperMountain/Product1/1.png"
+    },
+    "Compact USB VNAs to 44 GHz": { 
+        "id": "Compact USB",
+        "img": "/img/CopperMountain/Product2/1.png"
+    },
+    "Multiport USB VNAs to 9 GHz": { 
+        "id": "Multiport USB",
+        "img": "/img/CopperMountain/Product3/1.png"
+    },
+    "Cobalt VNAs up to 20 GHZ": { 
+        "id": "Cobalt VNAs",
+        "img": "/img/CopperMountain/Product4/1.png"
+    }
+}

@@ -1,0 +1,372 @@
+
+/*CONTENEDOR PRINCIPAL*/
+.ctnMainHome { 
+  background-color: #ffffff1f;
+  height: 92vh;
+  overflow: hidden;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+/*CONTENEDOR DERECHA Y IZQUIERDA*/
+
+.ctnBoxRigth { 
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.ctnBoxLeft { 
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+
+/*ESTILO PARTE IZQUIERDA*/
+.boxLeft { 
+  display: grid;
+  grid-template-rows: 3fr 5fr 2fr;
+  justify-content: center;
+  width: 90%;
+  padding: 10px 0px 10px 10px;
+
+}
+
+/*ESTILO TEXTO IZQUIERDA*/
+
+.textBoxLeft { 
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+.textBoxLeft h2 { 
+  font-size: 2.5em;
+  font-weight: 800;
+  width: 75%;
+}
+
+
+/*ESTILOS CONTENEDOR APPS IZQUIERDA*/
+
+.appsBoxLeft { 
+  padding: 1em 0;
+  border-radius: 10PX;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appsBoxLeft h2 { 
+  font-size: 3.2em;
+  font-weight: 800;
+}
+
+.apps { 
+  display: flex;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.iconsAppsI { 
+  font-size: 2em;
+}
+.gps { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5em;
+}
+
+.partnersLeft { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+
+}
+
+/*CARRUSEL HOME*/
+.partnersText { 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.473);
+}
+
+.main { 
+  box-shadow: 1px 1px 10px 1px #05050525;
+  display: flex;
+  width: 90%;
+  border-radius: 10px;
+  height: 3.5em;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 0 auto;
+  margin-bottom: 10px;
+
+}
+.main section { 
+  cursor: pointer;
+}
+.iconsAvaliable_2 { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+
+/*RESPONSIVE PARTE IZQUIERDA*/
+@media(max-width: 1150px) { 
+  .ctnMainHome { 
+    grid-template-columns: 2fr 1fr;
+  }
+}
+@media(max-width: 800px) { 
+  .ctnMainHome { 
+    grid-template-columns: 2fr 0fr;
+  }
+  .ctnBoxLeft { 
+    justify-content: center;
+  }
+  
+}
+@media(max-width:560px) { 
+  .textBoxLeft h2 { 
+    font-size: 2.5em;
+
+  }
+  .textBoxLeft h1 { 
+    font-size: 5em;
+  }
+  .textBoxLeft p { 
+    font-size: 13px;
+    width: 90%;
+  }
+  .partnersLeft { 
+    width: 70%;
+  }
+  .main { 
+    width: 100%;
+    align-items: center;
+  }
+
+}
+@media(max-width: 460px) { 
+  .textBoxLeft h2 { 
+    font-size: 2.5em;
+
+  }
+  .textBoxLeft h1 { 
+    font-size: 5em;
+  }
+  .textBoxLeft p { 
+    font-size: 15px;
+  }
+  .appsBoxLeft { 
+    font-size: 1em;
+  }
+
+}
+@media(max-width: 380px) { 
+  .textBoxLeft h2 { 
+    font-size: 2em;
+
+  }
+  .textBoxLeft h1 { 
+    font-size: 4em;
+  }
+  .textBoxLeft p { 
+    font-size: 12px;
+  }
+  .appsBoxLeft { 
+    font-size: 0.8em;
+  }
+  .partnersLeft { 
+
+    width: 100%;
+    margin: auto;
+  }
+  .main { 
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+}
+@media(max-width: 340px) { 
+  .textBoxLeft h2 { 
+    font-size: 1.5em;
+
+  }
+  .textBoxLeft h1 { 
+    font-size: 3.5em;
+  }
+  .appsBoxLeft { 
+    font-size: 0.6em;
+  }
+}
+
+
+/*ESTILOS DERECHA*/
+.btnBoxRight { 
+  margin-bottom: 10px;
+}
+.boxRigth { 
+  width: 90%;
+  height: 100%;
+}
+.btnAstronics,
+.btnCopperMountain { 
+  margin-top: 1em;
+  width: auto;
+  display: flex;
+  justify-content: right;
+  margin-right: 1em;
+}
+
+.btnCopperMountain { 
+  display: none;
+}
+
+.carouselBoxRigth { 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 1em;
+
+}
+
+.carouselAstronics { 
+  width: 52%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  float: right;
+  gap: 1em;
+  margin-right: 1em; 
+}
+
+.carouselCopperMoutain { 
+  width: 52%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  float: right;
+  gap: 1em;
+  margin-right: 1em
+
+}
+.carousel_1{ 
+  transform-style: preserve-3d; 
+}
+
+.carousel_2{ 
+  transform-style: preserve-3d 
+}
+
+.carouselCopperMoutain { 
+  display: none;
+}
+
+/*RESPONSIVE PARTE DERECHA */
+@media(max-width: 1420px) { 
+  .carouselAstronics { 
+    width: 55%;
+  }
+  .carouselCopperMoutain { 
+    width: 55%;
+  }
+}
+@media(max-width: 1340px) { 
+  .carouselAstronics,
+  .carouselCopperMoutain { 
+    width: 58%;
+  }
+}
+@media(max-width:1280px ){ 
+  .carouselAstronics,
+  .carouselCopperMoutain { 
+    width: 70%;
+  }
+}
+@media(max-width: 1150px) { 
+  .carouselCopperMoutain,
+  .carouselAstronics { 
+    float: none;
+    width: 99%;
+  }
+
+  .btnCopperMountain,
+  .btnAstronics { 
+    justify-content: center;
+    width: 100%;
+  }
+   
+
+  .carouselBoxRigth { 
+    width: 100%;
+
+  }
+}
+@media(max-width: 800px) { 
+  .ctnBoxRigth { 
+    display: none;
+  }
+}
+
+/*FORMULARIO LOGIN*/
+
+.login2 { 
+    top: 8%;
+    left: 0;
+    position: absolute;
+    display: none;
+    height: 92vh;
+    width: 100%;
+    background-color: #095a323a;
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+.btnCloseLogin { 
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.IconCloseLogin { 
+  font-size: 2em;
+  color: red;
+}
+
+.IconCloseLogin:hover { 
+  transition: 0.25s;
+  scale: 0.8;
+  color: rgba(255, 0, 0, 0.534);
+}
+
+.IconCloseLogin:not(:hover){ 
+  transition: 0.25s;
+  scale: 1;
+  color: red;
+}

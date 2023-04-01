@@ -1,0 +1,22 @@
+.maps, .gps, .rma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.3em;
+    width: 70%;
+    height: 50%;
+    padding: 1.2em;
+    border-radius: 100px;
+    transition: 0.4s;
+
+  }
+  
+  .maps:hover, .gps:hover, .rma:hover {
+    scale: 0.8;
+  }
+  
+  .maps:not(:hover), .gps:not(:hover), .rma:not(:hover) {
+    scale: 1;
+  }

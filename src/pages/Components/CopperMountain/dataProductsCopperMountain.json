@@ -1,0 +1,96 @@
+{
+    "Port USB VNAs to 18 GHz": { 
+        "id": "Port USB VNAs to 18 GHz",
+        "text_1": "Lab-grade performance in handheld package",
+        "image_1": "/img/CopperMountain/Product1/1.png",
+        "text_2": "The 1-Port VNAs include an RF measurement module and RVNA software application which runs on Windows or Linux operating system on a PC, laptop, tablet, or x86 board computer connecting to the measurement hardware via USB interface. ",
+        "image_2": "/img/CopperMountain/Product1/2.png",
+        "text_3": "RVNA software can be installed on multiple computers that share the use of the analyzer measurement module. The Reflectometer 1-Port network analyzers can be used in the field, in the laboratory, and in production testing for many applications.",
+        "title_3": "SOFTWARE APPLICATION",
+        "image_4": "/img/CopperMountain/Product1/3.png",
+        "text_5":"1-Port VNA Series (cable and antenna analyzer or Reflectometers) delivers lab-grade performance in a handheld device. Our patented 1-Port VNAs (cable and antenna analyzers) perform lab quality measurements connecting directly to the DUT without the need for a test cable (Patent US 9,291,657).", 
+        "num1": 380, 
+        "num2": 180, 
+        "num3": 280, 
+        "num4": 180
+    },
+
+    "Compact USB VNAs to 44 GHz": { 
+
+        "id": "Compact USB VNAs to 44 GHz",
+        "text_1": "THE INDUSTRY STANDARD SINCE 2009",
+        "image_1": "/img/CopperMountain/Product2/1.png",
+        "text_2": "The Compact Series VNAs include an RF measurement module and TRVNA or S2VNA software application which runs on Windows or Linux operating system on a PC, laptop, tablet, or x86 board computer connecting to the measurement hardware via USB interface.",
+        "image_2":"/img/CopperMountain/Product2/2.png",
+        "text_3": "TRVNA and S2VNA software can be installed on multiple computers that share the use of the analyzer measurement module. The Compact Series network analyzers can be used in the field, in the laboratory, and in production testing for many applications.",
+        "title_3": "COMPACT SERIES VNAs",
+        "image_4": "/img/CopperMountain/Product2/3.png",
+        "text_5":"Our Compact USB Vector Network Analyzers deliver lab grade performance in a compact package, while still providing all the features engineers expect included standard in our software: linear/logarithmic sweeps with multiple trace formats, power sweeps, time domain and gating conversion, frequency offset mode", 
+        "num1": 300,
+        "num2": 180,
+        "num3": 280,
+        "num4": 180
+    }, 
+
+    "Multiport USB VNAs to 9 GHz": { 
+        "id": "Multiport USB VNAs to 9 GHz",
+        "text_1": "THE PREMIUM ULTRA-PORTABLE CHOICE",
+        "image_1": "/img/CopperMountain/Product3/1.png",
+        "text_2": "SN5090 Multiport VNAs are a competitively priced, versatile multiport solution with excellent dynamic range and measurement speed available in 6-, 8-, 10-, 12-, 14-, and 16-port configurations.",
+        "image_2":"/img/CopperMountain/Product3/2.png",
+        "text_3": "SN5090 VNAs are an organic extension of the Compact VNA family without using the switch matrix, enabling the full complexity of VNA measurements, a streamlined calibration process, and reduced test times.",
+        "title_3": "NULTIPORT VECTOR NETWORK",
+        "image_4": "/img/CopperMountain/Product3/3.png",
+        "text_5":"The SN5090 hardware can fit a 19” rack and utilizes robust, durable port connectors with ergonomic positioning for simplified cable connection.SN5090 features CMT’s next-generation software that delivers an intuitive and contemporary user interface compatible with both Linux and Windows OS.", 
+        "num1": 320,
+        "num2": 180,
+        "num3": 280,
+        "num4": 180
+    },
+
+    "Cobalt VNAs up to 20 GHZ": { 
+        "id": "Cobalt VNAs up to 20 GHZ",
+        "text_1": "RADIO TEST HUB",
+        "image_1": "/img/CopperMountain/Product4/1.png",
+        "text_2": "The Cobalt Series VNAs include an RF measurement module and S2VNA or S4VNA software application which runs on Windows or Linux operating system on a PC, laptop, tablet, or x86 board computer connecting to the measurement hardware via USB interface.",
+        "image_2":"/img/CopperMountain/Product4/2.png",
+        "text_3": "S2VNA and S4VNA software can be installed on multiple computers that share the use of the analyzer measurement module.",
+        "title_3": "COBALT SERIES VNAs",
+        "image_4": "/img/CopperMountain/Product4/3.png",
+        "text_5":"The Cobalt Series network analyzers can be used in the field, in the laboratory, and in production testing for many applications. The VNA can be integrated into production test system via Manufacturing Test plug-in.", 
+        "num1": 300,
+        "num2": 220,
+        "num3": 320,
+        "num4": 180
+    }, 
+    "75 Ohm Solutions to 3 GHz": { 
+        "id": "75 Ohm Solutions to 3 GHz",
+        "text_1": "RADIO TEST HUB",
+        "image_1": "/img/CopperMountain/Product5/1.png",
+        "text_2": "VNAs and ACMs are delivered with factory calibration certificates containing no data. The add-on option for ISO17025/Z540-1 Accredited, Traceable Calibration Certificate and Uncertainties is available and needs to be specified at the time of order.",
+        "image_2":"/img/CopperMountain/Product5/2.png",
+        "text_3": "SC7540 VNA includes an RF measurement module and S2 Windows or Linux operating system on a PC, laptop, tablet, or x86 board computer connecting to the measurement hardware via USB interface.",
+        "title_3": "APPLICATIONS",
+        "image_4": "/img/CopperMountain/Product5/3.png",
+        "text_5":"Applications of the SC7540 include RF component design and testing, on-wafer probing, field testing, insertion loss measurement, distance to fault measurements, antenna matching, quality control, material measurements, and many others.", 
+        "num1": 300,
+        "num2": 220,
+        "num3": 320,
+        "num4": 180
+    },
+    "mmWave Solutions to 330 GHz": { 
+        "id": "mmWave Solutions to 330 GHz",
+        "text_1": "RADIO TEST HUB",
+        "image_1": "/img/CopperMountain/Product6/1.png",
+        "text_2": "CMT’s CobaltFx frequency extension systems offer an unparalleled combination of price, performance, flexibility, and size. CobaltFx has been implemented by users in a variety of industries and applications including automotive, 5G, telecommunications, materials measurement, R&D, and more.",
+        "image_2":"/img/CopperMountain/Product6/2.png",
+        "text_3": "The system can be anchored by 9 or 20 GHz Cobalt VNAs in 2- or 4- port configurations to deliver the lowest cost testing capabilities.",
+        "title_3": "EXTENSION SYSTEM",
+        "image_4": "/img/CopperMountain/Product6/3.png",
+        "text_5":"Featuring a high dynamic range of up to 152 dB, the affordable CobaltFx system delivers highly accurate, reliable, and stable measurements up to 330 GHz with 3rd party extenders. As with all CMT solutions, CobaltFx is backed by expert engineers who can help you design and perform unique and complex measurements.", 
+        "num1": 300,
+        "num2": 220,
+        "num3": 320,
+        "num4": 180
+    }
+}
