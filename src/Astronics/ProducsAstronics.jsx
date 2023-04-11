@@ -1,7 +1,7 @@
-import {BaseProducts} from '../ViewProducts/BaseProducts'
-import data from './dataProductsCopperMountain.json'
+import BaseProducts from '../ViewProducts/BaseProducts'
+import data from './dataProductsAstronics.json'
 
-export const functionMap = []; 
+const functionMap = [1]; 
 export const Prueba = []
 
 const valores = Object.keys(data)
@@ -31,4 +31,6 @@ valores.map((key) => {
         )
     }
 })
+
+export default functionMap
 

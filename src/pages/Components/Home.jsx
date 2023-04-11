@@ -1,23 +1,23 @@
 import gsap from 'gsap'
 import React, { use, useEffect, useState } from 'react'
 import styles from '../../styles/Home.module.css'
-import { functionCard } from './Astronics/CardsAstronics'
-import { functionCard_2 } from './CopperMountain/CardsCopperMountain'
-import { BtnApps, BtnAstronics, BtnCopperMountain, BtnLoginApps } from './Elements/Buttons'
+import functionCard from '../../Astronics/CardsAstronics'
+import FunctionCard_2 from '../../CopperMountain/CardsCopperMountain'
+import { BtnApps, BtnAstronics, BtnCopperMountain, BtnLoginApps } from '../../Elements/Buttons'
 import { Barlow } from '@next/font/google'
 import Image from 'next/image'
-import { Login } from './Login/Login'
+import Login  from './Login/Login'
 import Link from 'next/link'
 import useModal from './hooks/useModal'
-import { ForgotPassword } from './Login/forgotPassword'
+import ForgotPassword from './Login/forgotPassword'
 import useModalForgot from './hooks/useModalForgot'
-import { NewPassword } from './Login/newPassword'
-import { ValidAcount } from './Login/validAcount'
+import NewPassword from './Login/newPassword'
+import ValidAcount from './Login/validAcount'
 import useModalValidAcount from './hooks/useModalValidAcount'
 import useModalNewPassword from './hooks/useModalNewPassword'
-import { CreateAccount } from './Login/createAccount'
+import CreateAccount from './Login/createAccount'
 import useModalCreateAccount from './hooks/useModalCreateAccount'
-import { IconsLoginAlarm, IconsLoginGPS, IconsLoginRMA } from './Elements/IconsLogin'
+import { IconsLoginAlarm, IconsLoginGPS, IconsLoginRMA } from '../../Elements/IconsLogin'
 import useModalInput from './hooks/useModalInputLogin'
 
 
@@ -28,7 +28,7 @@ const inter = Barlow ({
 })
 
 
-export const Home = ()=> { 
+const Home = ()=> { 
 
     /**CARDS ASTRONICS */
 
@@ -39,10 +39,10 @@ export const Home = ()=> {
 
 
     /**CARDS COPPER */
-    const Card_1_Copper = functionCard_2["getPRODUCT1"]
-    const Card_2_Copper = functionCard_2["getPRODUCT2"]
-    const Card_3_Copper = functionCard_2["getPRODUCT3"]
-    const Card_4_Copper = functionCard_2["getPRODUCT4"]
+    const Card_1_Copper = FunctionCard_2["getPRODUCT1"]
+    const Card_2_Copper = FunctionCard_2["getPRODUCT2"]
+    const Card_3_Copper = FunctionCard_2["getPRODUCT3"]
+    const Card_4_Copper = FunctionCard_2["getPRODUCT4"]
 
     /**MOVIMIENTO DEL CARRUSEL */
 
@@ -300,3 +300,5 @@ export const Home = ()=> {
         </>
     )
 }
+
+export default Home

@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import styles from '../../../styles/Login/validAccount.module.css'
-import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../Elements/Buttons';
+import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../../../Elements/Buttons';
 
-export const ValidAcount = ({isOpen, CloseModal, OpenBack, OpenNext})=> { 
+const ValidAcount = ({isOpen, CloseModal, OpenBack, OpenNext})=> { 
 
     const CancelClickDivParent = (e)=> { 
         e.stopPropagation()
@@ -44,3 +44,6 @@ export const ValidAcount = ({isOpen, CloseModal, OpenBack, OpenNext})=> {
         </main>
     )
 }
+
+
+export default ValidAcount

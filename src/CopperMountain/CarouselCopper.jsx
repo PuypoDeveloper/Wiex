@@ -1,15 +1,15 @@
-import data from './dataCarouselAstronics.json'
-import { Carouse } from '../ViewProducts/Carousel'
+import data from './dataCarouselCopper.json'
+import Carouse from '../ViewProducts/Carousel'
 
 const products = Object.keys(data)
 
-export const functionCarousel = {}
-export const Prueba_2=[]
+const FunctionCarousel = {}
+export const Prueba_2 =[]
 
 products.map((key) => { 
     const functionName = `get${key.charAt(0).toUpperCase()}${key.slice(1)}`;
     Prueba_2.push(`get${key.charAt(0).toUpperCase()}${key.slice(1)}`)
-    functionCarousel[functionName] = ()=> { 
+    FunctionCarousel[functionName] = ()=> { 
         return (
         <Carouse
             title={data[key].id}
@@ -20,7 +20,7 @@ products.map((key) => {
     }
 })
 
-
+export default FunctionCarousel
 
 
 

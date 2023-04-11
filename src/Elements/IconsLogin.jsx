@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import React from 'react'
-import styles from '../../../styles/Elements/IconsLogin.module.css'
-import useModalInput from '../hooks/useModalInputLogin';
+import styles from '../styles/Elements/IconsLogin.module.css'
+import useModalInput from '../pages/Components/hooks/useModalInputLogin';
 
 const selectionLogin = (pos) => {
 

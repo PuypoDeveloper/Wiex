@@ -1,7 +1,7 @@
-import styles from '../../../styles/Astronics/Astronics.module.css'
+import styles from '../styles/Astronics/Astronics.module.css'
 import gsap from 'gsap'
 
-export const Carouse = ({title, image, id2}) => { 
+const Carouse = ({title, image, id2}) => { 
 
     const activeAnimation = (id)=> { 
         let tl1 = gsap.timeline({ 
@@ -34,6 +34,8 @@ export const Carouse = ({title, image, id2}) => {
     </div>
     )
 }
+
+export default Carouse
 
 
 

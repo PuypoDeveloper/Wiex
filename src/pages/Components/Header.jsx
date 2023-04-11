@@ -10,19 +10,19 @@ import GridViewIcon from "@mui/icons-material/GridView";
 import DescriptionIcon from "@mui/icons-material/Description";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
-import { YTvideos } from "./Elements/youtube";
-import { Login } from "./Login/Login";
-import { CreateAccount } from "./Login/createAccount";
-import { ForgotPassword } from "./Login/forgotPassword";
+import YTvideos from "../../Elements/youtube";
+import Login from "./Login/Login";
+import CreateAccount from "./Login/createAccount";
+import ForgotPassword from "./Login/forgotPassword";
 import useModalCreateAccount from "./hooks/useModalCreateAccount";
 import useModal from "./hooks/useModal";
 import useModalForgot from "./hooks/useModalForgot";
 import useModalValidAcount from "./hooks/useModalValidAcount";
 import useModalNewPassword from "./hooks/useModalNewPassword";
-import { ValidAcount } from "./Login/validAcount";
-import { NewPassword } from "./Login/newPassword";
+import ValidAcount from "./Login/validAcount";
+import NewPassword from "./Login/newPassword";
 
-export const Header = () => {
+const Header = () => {
   /** Funciones menu desplegable desde "computadoras" */
 
   const ActiveMenu = () => {
@@ -349,3 +349,5 @@ export const Header = () => {
     </>
   );
 };
+
+export default Header;

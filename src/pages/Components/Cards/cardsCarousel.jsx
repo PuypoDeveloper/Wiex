@@ -3,7 +3,7 @@ import { gsap, random } from "gsap" ;
 import React, { useState, useEffect } from 'react';
 import styles from '../../../styles/Cards/Cards.module.css'
 
-export const Cards = ({image, title,text,image_2})=>{ 
+const Cards = ({image, title,text,image_2})=>{ 
 
     return ( 
         <div className={styles.ctnCards} id="ctnCardsId">
@@ -27,3 +27,5 @@ export const Cards = ({image, title,text,image_2})=>{
         </div>
     )
 }
+
+export default Cards

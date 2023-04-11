@@ -1,10 +1,9 @@
-import styles from '../../../styles/Astronics/Astronics.module.css'
+import styles from '../styles/Astronics/Astronics.module.css'
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import { useState } from 'react';
 
-export const ViewProductsAstronics = ({Order, Product, Order_2, Product_2})=> { 
-
+const ViewProductsAstronics = ({Order, Product, Order_2, Product_2})=> { 
 
     /**FUNCIONES PARTE DESCRIPCION PRODUCTO */
 
@@ -84,3 +83,4 @@ export const ViewProductsAstronics = ({Order, Product, Order_2, Product_2})=> {
     )
 }
 
+export default ViewProductsAstronics

@@ -1,7 +1,7 @@
-import {BaseProducts} from '../ViewProducts/BaseProducts'
-import data from './dataProductsAstronics.json'
+import BaseProducts from '../ViewProducts/BaseProducts'
+import data from './dataProductsCopperMountain.json'
 
-export const functionMap = []; 
+const FunctionMap = [1]; 
 export const Prueba = []
 
 const valores = Object.keys(data)
@@ -9,7 +9,7 @@ const valores = Object.keys(data)
 valores.map((key) => { 
     const functionName = `get${key.charAt(0).toUpperCase()}${key.slice(1)}`;
     Prueba.push(`get${key.charAt(0).toUpperCase()}${key.slice(1)}`)
-    functionMap[functionName] = ()=> { 
+    FunctionMap[functionName] = ()=> { 
         return ( 
             <BaseProducts
                 title_1={data[key].id}
@@ -31,4 +31,6 @@ valores.map((key) => {
         )
     }
 })
+
+export default FunctionMap
 

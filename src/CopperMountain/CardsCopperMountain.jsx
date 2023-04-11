@@ -1,14 +1,14 @@
 
-import { Cards } from "../Cards/cardsCarousel"
-import data from './CardsAstronics.json'
+import Cards from "../pages/Components/Cards/cardsCarousel"
+import data from './CardsCopperMountain.json'
 
 
 const valores = Object.keys(data)
-export const functionCard = {}
+const FunctionCard_2 = {}
 
 valores.map((key)=> { 
     const functionName = `get${key.charAt(0).toUpperCase()}${key.slice(1)}`;
-    functionCard[functionName] = () => { 
+    FunctionCard_2[functionName] = () => { 
         return ( 
             <Cards 
             image={data[key].image}
@@ -19,5 +19,6 @@ valores.map((key)=> {
         )
     }
 })
-    
 
+export default FunctionCard_2
+    

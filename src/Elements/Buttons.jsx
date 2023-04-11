@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../../../styles/Elements.module.css'
+import styles from '../styles/Elements.module.css'
 import LoginIcon from '@mui/icons-material/Login';
 import AddIcon from '@mui/icons-material/Add';
 import gsap from 'gsap';

@@ -1,8 +1,8 @@
 import styles from '../../../styles/Login/loginPrincipal.module.css'
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { BtnCloseX, BtnIntLogin } from '../Elements/Buttons';
-import { IconsLoginAlarm, IconsLoginGPS, IconsLoginRMA } from '../Elements/IconsLogin';
+import { BtnCloseX, BtnIntLogin } from '../../../Elements/Buttons';
+import { IconsLoginAlarm, IconsLoginGPS, IconsLoginRMA } from '../../../Elements/IconsLogin';
 import gsap from 'gsap';
 import useModal from '../hooks/useModal';
 import useModalInput from '../hooks/useModalInputLogin';
@@ -10,7 +10,7 @@ import useModalInput from '../hooks/useModalInputLogin';
 
 /** FORMULARIO LOGEO */
 
-export const Login =({isOpen, CloseModal, OpenNext, OpenCreate, input})=> {
+const Login =({isOpen, CloseModal, OpenNext, OpenCreate, input})=> {
 
     const CancelClickDivParent = (e)=> { 
          e.stopPropagation()
@@ -115,3 +115,5 @@ export const Login =({isOpen, CloseModal, OpenNext, OpenCreate, input})=> {
          </>
     )
 }
+
+export default Login

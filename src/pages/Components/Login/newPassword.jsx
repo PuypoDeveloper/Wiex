@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import styles from '../../../styles/Login/newPassWord.module.css'
-import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../Elements/Buttons';
+import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../../../Elements/Buttons';
 
 
-export const NewPassword = ({isOpen, CloseModal, OpenBack })=> { 
+const NewPassword = ({isOpen, CloseModal, OpenBack })=> { 
 
     const CancelClickDivParent = (e)=> { 
         e.stopPropagation()
@@ -41,5 +41,7 @@ export const NewPassword = ({isOpen, CloseModal, OpenBack })=> {
     </main>
     )
 }
+
+export default NewPassword
 
 

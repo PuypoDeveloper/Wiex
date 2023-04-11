@@ -1,9 +1,9 @@
 import { useEffect, useRef } from "react"
-import styles from '../../../styles/Elements.module.css'
+import styles from '../styles/Elements.module.css'
 
 const videoId = "l0hPt-bsJMk"
 
-export const YTvideos = ({video}) => { 
+const YTvideos = ({video}) => { 
     const playerRef = useRef(null)
 
     useEffect(() => {
@@ -45,3 +45,5 @@ export const YTvideos = ({video}) => {
         </div>
     )
 }
+
+export default YTvideos

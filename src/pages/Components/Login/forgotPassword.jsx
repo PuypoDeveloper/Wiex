@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import styles from '../../../styles/Login/forgotPassword.module.css'
-import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../Elements/Buttons';
+import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../../../Elements/Buttons';
 
 
 /** FORMULARIO FORGOT PASSWORD */
 
 
 
-export const ForgotPassword =  ({isOpen,CloseModal, OpenBack, OpenNext})=> { 
+const ForgotPassword =  ({isOpen,CloseModal, OpenBack, OpenNext})=> { 
    const CancelClickPartner = (e)=> { 
         e.stopPropagation()
    }
@@ -46,3 +46,5 @@ export const ForgotPassword =  ({isOpen,CloseModal, OpenBack, OpenNext})=> {
     </>
     )
 }
+
+export default ForgotPassword

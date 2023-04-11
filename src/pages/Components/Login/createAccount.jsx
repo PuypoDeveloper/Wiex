@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import styles from '../../../styles/Login/createAccount.module.css'
-import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../Elements/Buttons';
+import { BtnArrowBack, BtnCloseX, BtnIntLogin } from '../../../Elements/Buttons';
 
-export const CreateAccount = ({isOpen, CloseModal, OpenBack }) => { 
+const CreateAccount = ({isOpen, CloseModal, OpenBack }) => { 
 
     const CancelClickDivParent = (e)=> { 
         e.stopPropagation()
@@ -46,3 +46,5 @@ export const CreateAccount = ({isOpen, CloseModal, OpenBack }) => {
         </main>
     )
 }
+
+export default CreateAccount

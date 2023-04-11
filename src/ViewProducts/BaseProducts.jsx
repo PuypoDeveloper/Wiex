@@ -1,11 +1,11 @@
 import gsap from 'gsap'
 import { useEffect, useState } from 'react'
-import styles from '../../../styles/Astronics/Astronics.module.css'
+import styles from '../styles/Astronics/Astronics.module.css'
 import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
 import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 
 
-export const BaseProducts = ({title_1,text_1,image_1,text_2,image_2, text_3,title_3,image_4,text_5, num1, num2, num3, num4})=> { 
+const BaseProducts = ({title_1,text_1,image_1,text_2,image_2, text_3,title_3,image_4,text_5, num1, num2, num3, num4})=> { 
 
 const [widthDisplay, setWidthDisplay] = useState("")
 const [validation, setValidation] = useState(false)
@@ -115,3 +115,5 @@ const Card2 = ({title_3,image_4,text_5, num3, num4})=> {
     </div>
     )
 }
+
+export default BaseProducts

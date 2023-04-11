@@ -2,8 +2,8 @@ import styles from '../styles/App.module.css'
 import Head from 'next/head'
 import { Kanit } from '@next/font/google'
 import { Barlow } from '@next/font/google'
-import { Header } from './Components/Header'
-import { Home } from './Components/Home'
+import Header from './Components/Header'
+import Home from './Components/Home'
 
 const inter = Kanit ({ 
     subsets: ["latin"], 
@@ -11,7 +11,7 @@ const inter = Kanit ({
 })
 
 
-export const App = ()=> { 
+const App = ()=> { 
     return ( 
         <div className={inter.className}>
             <Head>
@@ -23,3 +23,5 @@ export const App = ()=> {
         </div>
     )
 }
+
+export default App
